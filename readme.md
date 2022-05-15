@@ -11,7 +11,7 @@ In order to optimize our inventory, we would like to predict if a film will have
 1. Create a query or queries to extract the information you think may be relevant for building the prediction model. It should include some film features and some rental features. Use the data from 2005.
 2. Create a query to get the total amount of rentals in June for each film. 
 3. Do the same with July. 
-4. Create a new column containing (Yes/No) for each film whether or not the number of monthly rentals in **July was bigger than in August**. Your objective will be to predict this new column.
+4. Create a new column containing (Yes/No) for each film whether or not the number of monthly rentals in **July was bigger than in June**. Your objective will be to predict this new column.
 6. Read the data into a Pandas dataframe.
 7. Analyze extracted features and transform them. You may need to encode some categorical variables or scale numerical variables.
 8. Create a logistic regression model to predict this new column from the cleaned data.
